@@ -1,0 +1,26 @@
+# Rust build output
+target/
+
+# Cargo lock file
+# Keep Cargo.lock for apps/binaries.
+# Ignore it only for pure libraries.
+# Cargo.lock
+
+# Editor / IDE files
+.vscode/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+*.swp
+*.swo
+
+# Environment files
+.env
+.env.*
